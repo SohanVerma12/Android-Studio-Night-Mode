@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="@color/colorBackground"
+    android:gravity="center"
+    android:orientation="vertical">
+
+    <ImageView
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:contentDescription="@string/app_name"
+        android:src="@drawable/mode"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/night_mode_example"
+        android:textStyle="bold"
+        android:textSize="18sp"
+        android:layout_marginTop="20dp"
+        android:textColor="@color/colorTextPrimary"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/this_is_description_text"
+        android:textSize="15sp"
+        android:textColor="@color/colorTextSecondary"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:text="@string/night_mode"
+        android:textColor="@color/colorTextPrimary"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:textAllCaps="true"/>
+
+    <Switch
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/switchNightMode"
+        android:layout_marginTop="8dp"/>
+
+
+
+
+</LinearLayout>
+
+
+
+
+
+
+
